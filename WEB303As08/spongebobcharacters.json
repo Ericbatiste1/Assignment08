@@ -1,0 +1,62 @@
+{"spongebobcharacters":[
+    {
+        "name":"SpongeBob SquarePants",
+        "age":35,
+        "residence":"124 Conch Street",
+        "occupation":"Fry Cook"
+    },
+    {
+        "name":"Patrick Star",
+        "age":37,
+        "residence":"120 Conch Street",
+        "occupation":"no form of occupation."
+    },
+    {
+        "name":"Squidward",
+        "age":"Unknown",
+        "residence":"122 Conch Street",
+        "occupation":"Cashier"
+    },
+    {
+        "name":"Plankton",
+        "age":59,
+        "residence":"The Chum Bucket",
+        "occupation":"Chum Bucket Manager"
+    },
+    {
+        "name":"Sandy Cheeks",
+        "age":36,
+        "residence":"Sandy's treedome",
+        "occupation":"Scientist"
+    },
+    {
+        "name":"Gary",
+        "age":9,
+        "residence":"124 Conch Street",
+        "occupation":"None"
+    },
+    {
+        "name":"Mr. Crabs",
+        "age":72,
+        "residence":"Anchor House",
+        "occupation":"Owner and manager of the Krusty Krab"
+    },
+    {
+        "name":"Pearl Krabs",
+        "age":16,
+        "residence":"Anchor House",
+        "occupation":"High School Student"
+    },
+    {
+        "name":"Mrs. Puff",
+        "age":63,
+        "residence":"Mrs. Puff's house",
+        "occupation":"Driving Teacher"
+    },
+    {
+        "name":"Larry the Lobster",
+        "age":25,
+        "residence":"The Beach",
+        "occupation":"Lifeguard"
+    }
+]}
