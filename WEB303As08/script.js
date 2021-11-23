@@ -30,7 +30,7 @@ $.ajax({
         `)
         $("#buttonA").click(function(e){
             $("tbody tr").each(function(el) {
-                let value = $(this).children().first().text()
+                let value = $(this).children().first().text();
                 if(!value[0].match(/[a-mA-M]/)) {
                     $(this).hide();
                 }
@@ -38,7 +38,7 @@ $.ajax({
         })
         $("#buttonB").click(function(e){
             $("tbody tr").each(function(el) {
-                let value = $(this).children().first().text()
+                let value = $(this).children().first().text();
                 if(value[0].match(/[a-mA-M]/)) {
                     $(this).hide();
                 }
@@ -50,12 +50,12 @@ $.ajax({
 
 $("input").keyup(function(e){
     $("tbody tr").each(function (el) {
-        let value = $(this).children().first().text();
+        let value = $(this).children().first().text().toLowerCase();
            console.log(value)
            if(e.target.value === "") {
                $(this).removeClass("highlight");
            }
-           else if(value.includes(e.target.value)) {
+           else if(value.includes(e.target.value.toLowerCase())) {
             $(this).addClass("highlight");
         } else {
             $(this).removeClass("highlight");
